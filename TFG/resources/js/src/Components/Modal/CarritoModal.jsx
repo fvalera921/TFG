@@ -22,6 +22,7 @@ function CarritoModal() {
             document.body.style.overflow = "auto";
         }
     }, [openCart]);
+    
     // El [open] significa: Solo ejecuta esto cuando cambie open.
 
     // Si no esta abierto no se renderiza nada.
